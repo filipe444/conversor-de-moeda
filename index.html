@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+
+    <header>
+    <h1>COVERTER REAL EM DÓLAR:</h1>
+
+    
+        <input type="checkbox" name="#" id="toggle" class="toggle-btn">
+        <label for="toggle" class="toggle-label"></label>
+    </header>
+    
+
+
+
+
+
+    <form id="form">
+        <section class="inputs-container">
+            <div class="form-croup">
+                <label for="value-real">Valor a ser convertido (R$)</label>
+                <input type="number"
+                placeholder="Insira um valor válido..."
+                id="value-real"
+                name="valuer-real"
+                max="1000000"
+                >
+            </div>
+
+            <div class="form-croup">
+                <label for="">Escolha a moeda</label>
+                <select id="currency">
+                    <option value="">Selecione...</option>
+                    <option value="dol">Dólar</option>
+                </select>
+
+            </div>
+        </section>
+        <button type="submit">Converter</button>
+    </form>
+    <h2 id="result"></h2>
+</main> 
+
+
+
+
+
+
+
+
+    
+
+    <script src="btn.js"></script>
+
+    <script src="converter.js"></script>
+
+    <footer>
+        <hr>
+        Copyrigth &copy; 2024, Desenvolvido por Filipe Flores | All Rigths Reserved.
+    </footer>
+
+</body>
+</html>
